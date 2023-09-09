@@ -1,6 +1,6 @@
 import tkinter as tk
 from PIL import Image, ImageTk
-import os # işletim sistemi
+import os 
 
 FONT = ("Arial", 12, "bold")
 
