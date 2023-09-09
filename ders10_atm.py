@@ -30,6 +30,10 @@ def resize_image(image, width, height):
     img = image.resize((width, height), Image.ANTIALIAS)
     return ImageTk.PhotoImage(img)
 
+# Ana pencere oluşturma
+root = tk.Tk()
+root.title("Bankamatik Uygulaması")
+
 
 
 
